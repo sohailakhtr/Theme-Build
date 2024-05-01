@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+.main {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    /* background-color: cyan; */
+    overflow: hidden;
+}
+
+.main .new {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid #000; */
+    margin: 100px 0px;
+    background-image: url(./img/road.jpg);
+    background-size: 100% 100%;
+    /* float: left; */
+}
+
+.new .car1 {
+    position: relative;
+    height: 210px;
+    width: 40%;
+    /* border: 1px solid green; */
+    /* background-image: url(./img/car.png);
+    background-size: 100% 100%; */
+    top: 180px;
+    animation-name: jeep;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    float: left;
+}
+
+.car1>img {
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes jeep {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        left: -100%;
+    }
+}
+
+.car1>.img1 {
+    position: relative;
+    top: -110px;
+    height: 120px;
+    width: 22%;
+    left: 5px;
+    animation-name: tyre;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    /* transform: rotate(360deg); */
+}
+
+@keyframes tyre {
+    0% {
+        /* left: 100%; */
+        transform: rotate(0deg);
+        transition-duration: 5s;
+    }
+
+    100% {
+        /* left: -100%; */
+        transform: rotate(-360deg);
+        transition-duration: 5s;
+    }
+}
+
+.new .c2 {
+    animation-name: car;
+    animation-duration: 5s;
+}
+
+@keyframes car {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        left: -100%;
+    }
+}
+
+.car1>.pic {
+    left: 265px;
+}
+
+.car1>.car2 {
+    position: relative;
+    width: 100%;
+    height: 330px;
+    top: -100px;
+    left: 20px;
+}
+
+.car1 .p1 {
+    left: 120px;
+    top: -255px;
+    height: 100px;
+    width: 18.5%;
+}
+
+.car1>.p2 {
+    left: 270px;
+    top: -255px;
+    height: 100px;
+    width: 18.5%;
+}
+
+.new .c3 {
+    animation-name: car2;
+    animation-duration: 8s;
+}
+
+@keyframes car2 {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        left: -100%;
+    }
+}
+
+.car1>.car3 {
+    position: relative;
+    width: 100%;
+    height: 330px;
+    top: -250px;
+    left: 50px;
+}
+
+.car1 .p3 {
+    left: 150px;
+    top: -420px;
+    height: 100px;
+    width: 18.5%;
+}
+
+.car1>.p4 {
+    left: 300px;
+    top: -420px;
+    height: 100px;
+    width: 18.5%;
+}
