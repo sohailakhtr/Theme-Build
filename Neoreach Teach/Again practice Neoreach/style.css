@@ -1,0 +1,1451 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 'proxima-nova', sans-serif;
+    /* overflow: hidden; */
+}
+
+.Main_section {
+    overflow: hidden;
+    /* position: static; */
+    /* position: relative; */
+    
+
+}
+
+.Header_section {
+    width: 93%;
+    height: 60px;
+    /* position: relative; */
+    /* position: sticky; */
+    top: 0;
+    z-index: 100;
+    /* border: 1px red solid; */
+    padding: 0px 50px;
+    background-color:rgb(255, 255, 255);
+
+    position: fixed;
+ box-shadow: -5px 0px 10px 2px rgb(219, 218, 218);
+
+}
+
+.hed_sec1 {
+    width: 15%;
+    height: 60px;
+    /* border: 1px red solid; */
+    float: left;
+    margin-top: 0px;
+    position: sticky;
+}
+
+.hed_sec2 {
+    /* position: sticky; */
+    width: 51%;
+    height: 60px;
+    /* border: 1px red solid; */
+    float: left;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 0px;
+
+
+}
+
+.hed_sec3 {
+    width: 20%;
+    height: 60px;
+    /* border: 1px red solid; */
+    float: left;
+    margin-top: 0px;
+/* position: sticky; */
+}
+
+img {
+    width: 100%;
+    height: 100px;
+}
+
+.hed_sec_img {
+    width: 100%;
+    height: 60px;
+}
+
+ul {
+    list-style: none;
+
+}
+
+ul li {
+
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #54595F;
+}
+
+.hed_sec_btn1 {
+    width: 25%;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: rgba(0, 255, 255, 0);
+    cursor: pointer;
+    border: none;
+}
+
+.hed_sec_btn2 {
+    width: 55%;
+    height: 48px;
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    color: #fff;
+    border: none;
+    background-color: #00C8AF;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.hed_sec_btn2:hover {
+    background-color: black;
+    color: #00C8AF;
+}
+
+.main_sec2 {
+    position: relative;
+    /* top: 100px; */
+    /* border: 1px rgb(218, 105, 124) solid; */
+    width: 100%;
+    top: 80px;
+    height: 570px;
+
+}
+
+.main1 {
+    position: absolute;
+    width: 38%;
+    /* height:1000px; */
+    /* border: 1px red solid; */
+    /* float: left; */
+    /* left: 100px; */
+
+}
+
+.text_sec {
+    position: absolute;
+    width: 78%;
+    height: 425px;
+    top: 50px;
+    left: 50px;
+    /* border: 1px blue solid; */
+}
+
+.h1_sec {
+    font-size: 40px;
+    font-family: 'proxima-nova', sans-serif;
+    line-height: 55px;
+}
+
+.para_sec {
+    position: absolute;
+    top: 190px;
+    font-size: 21px;
+    line-height: 38px;
+}
+
+.divbtn {
+    position: absolute;
+    top: 355px;
+    width: 50%;
+    height: 70px;
+    /* border: 1px green solid; */
+}
+
+.btnlern {
+    position: absolute;
+    padding: 20px 35px 20px 35px;
+    font-size: 17px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: #00C8AF;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btnlern:hover {
+    color: #00C8AF;
+    background-color: black;
+
+}
+
+.btnimg {
+    position: absolute;
+    width: 100%;
+    height: 63px;
+    left: 8px;
+    top: 5px;
+
+}
+
+.main2 {
+    position: absolute;
+    width: 63%;
+    height: 520px;
+    left: 515px;
+    /* border: 1px red solid; */
+}
+
+.hero1 {
+    position: absolute;
+    width: 54%;
+    height: 450px;
+    /* border: 1px blue solid; */
+    top: 50px;
+}
+
+.orange {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+}
+
+.herbas1 {
+    position: absolute;
+    top: -10px;
+    width: 460px;
+    height: 460px;
+    left: 20px;
+}
+
+.talbox {
+    position: absolute;
+    top: 40px;
+    left: 260px;
+    width: 47%;
+    height: 55px;
+    animation-name: boxmove;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes boxmove {
+    0% {
+        top: 8px
+    }
+
+    50% {
+        top: -8px
+    }
+
+    100% {
+        top: 8px
+    }
+
+}
+
+.talbox2 {
+    position: absolute;
+    margin-top: 360px;
+    left: 5px;
+    width: 47%;
+    height: 55px;
+    animation-name: boxmove;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.carddiv {
+    position: absolute;
+    top: 210px;
+    width: 800px;
+    height: 140px;
+    left: 75px;
+    /* border: 1px red solid; */
+    z-index: -1;
+
+}
+
+.cardboy {
+    position: absolute;
+    height: 140px;
+    width: 110px;
+    animation-name: mov;
+    animation-duration: 8s;
+    animation-delay: -1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.cardgir {
+    position: absolute;
+    height: 140px;
+    width: 110px;
+    animation-name: mov;
+    animation-duration: 8s;
+    animation-delay: 1.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.cardboy2 {
+    position: absolute;
+    height: 140px;
+    width: 110px;
+    animation-name: mov;
+    animation-duration: 8s;
+    animation-delay: 3.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+ }
+
+ .cardgir2 {
+    position: absolute;
+    height: 140px;
+    width: 110px;
+    animation-name: mov;
+    animation-duration: 8s;
+    animation-delay: 5.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+ 
+@keyframes mov {
+    0% {
+        left: 0%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+.bulbhor {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 280px;
+    top: 328px;
+    height: 9vh;
+
+}
+
+.line {
+    position: absolute;
+    height: 3.9vh;
+    animation-name: speker;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    top: 332px;
+    left: 132px;
+    transform: rotate(-25deg);
+}
+
+@keyframes speker {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+
+}
+
+
+.hero_base2 {
+
+    position: absolute;
+    width: 460px;
+    height: 435px;
+    left: 50px;
+}
+
+
+.hero2 {
+    position: absolute;
+    width: 48%;
+    height: 500px;
+    /* border: 1px rebeccapurple solid; */
+    left: 457px;
+    top: 50px
+}
+
+
+.wavediv {
+    position: absolute;
+    width: 65%;
+    height: 65px;
+    top: 255px;
+    position: relative;
+    /* border: 1px red solid; */
+    left: 138px;
+    overflow: hidden;
+
+}
+
+.wave {
+    position: absolute;
+    width: 100%;
+    height: 58px;
+    animation-name: wavemov;
+    animation-duration: 9.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes wavemov {
+    0% {
+        left: 0%;
+    }
+
+    100% {
+        left: -100%;
+    }
+}
+
+.serbar {
+    position: absolute;
+    width: 260px;
+    height: 35px;
+    border: 1px rgb(15, 15, 15) solid;
+    border-radius: 50px;
+    top: 185px;
+    left: 108px;
+    background-color: #75DFFC;
+    overflow: hidden;
+}
+
+.brline {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    top: 18px;
+
+}
+
+.serchbar {
+    position: absolute;
+    width: 160px;
+    height: 44px;
+    top: -2px;
+}
+
+.movepart {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 150px;
+    /* border: 1px red solid; */
+
+}
+
+.doot {
+    position: absolute;
+    width: 100%;
+    height: 55px;
+    top: -9px;
+    animation-name: dotmovee;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes dotmovee {
+    0% {
+        left: -100px;
+    }
+
+    100% {
+        left: 15px;
+    }
+}
+
+.main_sec3 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    top: 45px;
+    /* border: 1px red solid; */
+
+}
+
+.brandname {
+    width: 100%;
+    height: 60px;
+    margin-top: 50px;
+    float: left;
+    /* border: 1px red solid; */
+}
+
+.brand1 {
+    /* border: 1px green solid; */
+    width: 110px;
+    height: auto;
+    margin-left: 80px;
+
+}
+
+.oremt {
+    margin-top: -50px;
+    width: 336px;
+    height: 340px;
+    margin-left: -296px;
+}
+
+.main_sec5 {
+    position: relative;
+    text-align: center;
+    font-family: 'proxima-nova', sans-serif;
+
+    width: 100%;
+    height: 250px;
+    /* border: 1px red solid; */
+    margin-top: 20px;
+}
+
+.main5_h1 {
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.sec5para {
+    margin-top: 23px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #54595F;
+
+}
+
+.sec5btndiv {
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    /* border: 1px red solid; */
+    left: 610px;
+    top: 150px;
+
+}
+
+.sec5_img {
+    position: absolute;
+    width: 145px;
+    height: 57px;
+    left: 0;
+}
+
+.sec5_btn {
+    position: absolute;
+    width: 135px;
+    height: 50px;
+    left: 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 1px;
+    background-color: #00C8AF;
+    font-weight: bold;
+
+}
+
+.sec5_btn:hover {
+    background-color: black;
+    color: #00C8AF;
+}
+
+.mainsec6 {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    /* border: 1px red solid; */
+    font-family: 'proxima-nova', sans-serif;
+}
+
+.sec6div1 {
+    position: absolute;
+    width: 35%;
+    height: 380px;
+    /* border: 1px red solid; */
+    top: 100px;
+    align-items: center;
+    left: 70px;
+}
+
+.sec6div2 {
+    position: absolute;
+    width: 50%;
+    height: 385px;
+    /* border: 1px blue solid; */
+    top: 95px;
+    left: 620px;
+    /* right: 700px; */
+}
+
+.sec6h6 {
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    font-family: 'proxima-nova', sans-serif;
+    
+
+}
+
+.sec6_h1 {
+    position: absolute;
+    top: 38px;
+    color: #000000;
+    line-height: 45px;
+
+
+}
+
+.sec6_para6 {
+
+    position: absolute;
+    top: 148px;
+    font-size: 15px;
+    line-height: 35px;
+    color: black;
+
+}
+.sec6_para666 {
+
+    position: absolute;
+    top: 70px;
+    font-size: 13px;
+    line-height: 35px;
+    color:rgb(73, 73, 73);
+
+}
+
+.sec6_para6666 {
+
+    position: absolute;
+    top: 100px;
+    font-size: 15px;
+    line-height: 35px;
+    color: #54595F;
+
+}
+
+
+
+.sec6btn6 {
+    position: absolute;
+    top: 323px;
+}
+.sec6btn67 {
+    position: absolute;
+    top: 285px;
+}
+
+.sec6workimg {
+    position: absolute;
+    width: 100%;
+    height: 380px;
+}
+
+.sec6div2img1 {
+    position: absolute;
+    width: 180px;
+    height: 260px;
+    top: 80px;
+    left: 120px;
+}
+
+.sec6div2img2 {
+    position: absolute;
+    width: 180px;
+    height: 260px;
+    top: 50px;
+    left: 360px;
+}
+
+.sec7div1 {
+
+    position: absolute;
+    width: 35%;
+    height: 380px;
+    /* border: 1px red solid; */
+    top: 100px;
+    align-items: center;    
+    position: absolute;
+    left: 820px;
+
+}
+
+.sec7div2 {
+    position: absolute;
+    left: 70px;
+}
+
+.sec7img1 {
+    position: absolute;
+    left: 104px;
+    width: 90px;
+    height: 170px;
+    top: 110px;
+}
+
+.sec7buble {
+    position: absolute;
+    width: 165px;
+    height: 100px;
+    left: 30px;
+    top: 25px;
+}
+
+.sec8img2 {
+    width: 120px;
+    height: 220px;
+    position: absolute;
+    left: 530px;
+    top: 50px;
+}
+
+.sec8shape {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 260px;
+    left: 550px;
+
+}
+
+.sec9img {
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    left: 500px;
+    top: 70px;
+}
+
+.sec10lines {
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    left: 510px;
+    top: 80px;
+    animation-name: multiline;
+    animation-duration: 6s;
+
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes multiline {
+    50% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.sec10arrow {
+    position: absolute;
+    width: 100px;
+    height: 15px;
+    left: 527px;
+    top: 123px;
+    animation-name: movearrow;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movearrow {
+    0% {
+        left: 800px;
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+        left: 530px;
+        top: 124px;
+    }
+
+    75% {
+        left: 530px;
+        top: 124px;
+        transform: rotate(0deg);
+        /* top:170px; */
+
+
+    }
+
+    100% {
+        left: 530px;
+        top: 230px;
+        transform: rotate(30deg);
+
+    }
+
+
+
+
+
+
+}
+
+.cse6main {
+    /* position: absolute */
+    /* margin-top:  50px; */
+    border: none;
+    width: 100%;
+    height: 300px;
+
+}
+
+.mainh1 {
+    /* position: absolute; */
+    font-size: 30px;
+    margin-top: 40px;
+    color: #252525;
+}
+
+.secpar {
+    /* position: absolute; */
+    font-size: 17px;
+    color: #5e5e5e;
+
+    margin-top: 30px;
+    line-height: 23px;
+}
+
+.sec6len {
+    margin-top: 50px;
+    width: 300px;
+    height: 70px;
+    margin-left: -60px;
+    border: none;
+
+}
+
+.sec6bt {
+    width: 220px;
+    height: 60px;
+    padding: 0px 10px 0px 10px;
+
+}
+
+.sec6ig {
+    width: 200px;
+    height: 58px;
+}
+
+.multipleimges {
+    position: relative;
+
+    width: 100%;
+    height: 400px;
+    /* border: 1px green solid; */
+}
+
+.mixcol {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+}
+
+.multiimg1 {
+    position: absolute;
+    width: 280px;
+    height: 250px;
+    top: 100px;
+    left: 150px;
+
+}
+
+.multiimg0 {
+    position: absolute;
+    width: 315px;
+    height: 250px;
+    left: 310px;
+    top: 40px;
+}
+
+.multiimg3 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 410px;
+    top: 60px;
+
+}
+
+.multiimg4 {
+    position: absolute;
+    width: 180px;
+    height: 260px;
+    left: 650px;
+    top: 60px;
+}
+
+.multiimg5 {
+    position: absolute;
+    width: 130px;
+    height: 90px;
+    left: 360px;
+    top: 260px;
+}
+
+.multiimg6 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 860px;
+    top: 30px;
+}
+
+.multiimg7 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 860px;
+    top: 100px;
+}
+
+.multiimg8 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 960px;
+    top: 150px;
+}
+
+.multiimg9 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1005px;
+    top: 270px;
+}
+
+.multiimg10 {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    right: 20px;
+    top: 40px;
+}
+
+.multiimg11 {
+    position: absolute;
+    width: 210px;
+    height: 260px;
+    right: 20px;
+    /* left: 1080px; */
+    top: 100px;
+}
+
+.card_sec {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    /* border: 1px red solid; */
+}
+
+
+.subseccard {
+    position: absolute;
+    width: 30%;
+    left: 0px;
+    height: 700px;
+    /* border: 1px yellowgreen solid; */
+}
+
+.car_sec1 {
+    position: absolute;
+    width: 355px;
+    height: 615px;
+    border: 1px rgb(0, 0, 0) solid;
+    top: 40px;
+    border-radius: 10px;
+    left: 40px;
+    font-family: 'proxima-nova', sans-serif;
+    box-shadow: 20px 20px .2px .1px rgb(228, 224, 224);
+
+}
+
+
+.subseccard1 {
+    position: absolute;
+    width: 30%;
+    left: 450px;
+    height: 700px;
+    /* border: 1px yellowgreen solid; */
+}
+
+
+.subseccard3 {
+    position: absolute;
+    width: 30%;
+    left: 450px;
+    height: 700px;
+    /* border: 1px yellowgreen solid; */
+}
+.samlogo {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 110px;
+    top: -10px;
+}
+
+.cardpara {
+
+    position: absolute;
+    text-align: center;
+    left: 21px;
+    line-height: 33px;
+    font-size: 19px;
+    top: 120px;
+
+}
+
+.carddive1 {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    border: 1px black solid;
+    top: 300px;
+    left: 60px;
+    border-left: none;
+    border-right: none;
+}
+
+.carddive2 {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    border: 1px black solid;
+    top: 300px;
+    border-right: none;
+    left: 210px;
+}
+
+.carddive3 {
+    position: absolute;
+    width: 160px;
+    height: 100px;
+    border: 1px black solid;
+    top: 431px;
+    left: 210px;
+    border-right: none;
+    border-top: none;
+
+}
+
+.carddive4 {
+    position: absolute;
+    width: 160px;
+    height: 100px;
+    border: 1px black solid;
+    top: 431px;
+    left: 60px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+
+.csicon {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 25px;
+    top: 10px;
+
+}
+
+.card1h1 {
+    font-family: 'proxima-nova', sans-serif;
+    position: absolute;
+    top: 110px;
+    left: 30px;
+}
+
+.card3h3 {
+    position: absolute;
+    top: 55px;
+    left: 20px;
+    color: #444141;
+}
+
+.card3h4 {
+    position: absolute;
+    top: 55px;
+    left: 15px;
+    color: #000;
+}
+
+.card1btnsec {
+    position: absolute;
+    left: 170px;
+    top: 570px;
+}
+
+.secondlastsec {
+    position: relative;
+    width: 100%;
+    height:1800px;
+    /* border: 1px black solid; */
+}
+
+.footerbase{
+    position: absolute;
+    width: 590px;
+    height: 350px;
+    /* border: 1px black solid; */
+    
+}
+.serbar02{
+    width: 200px;
+    height: 33px;
+    left: 133px;
+    top: 130px;
+}
+.serbar03{
+    width: 120px;
+    height: 42px;
+}
+.wavediv022{
+    width: 183px;
+    height: 50px;
+    top: 180px;
+    left: 150px;
+    /* border: 1px green solid; */
+}
+.tolbx{
+    position: absolute;
+    left: 294px;
+}
+.tolbax3{
+    position: absolute;
+    margin-top: 150px;
+    left: 420px;
+}
+.to{
+
+    margin-top: 300px;
+    left: 0px;
+}
+.lin2{
+    transform: rotate(40deg);
+    left: 253px;
+    top: 315px;
+}
+
+.subsecondlast {
+    position: absolute;
+    width: 92%;
+    height: 1700px;
+    top: 50px;
+    left: 50px;
+    right: 100px;
+    background-color: #e7fef8;
+    /* border: 1px blue solid; */
+}
+
+
+.her03 {
+    position: absolute;
+    width: 30%;
+    height: 600px;
+    /* border: 1px rgb(153, 51, 82) solid; */
+    left: 300px;
+    top: 50px;
+    border: none;
+}
+
+.seconlasttxtsec {
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    /* border: 1px green solid; */
+    top: 500px;
+    left: 350px;
+    text-align: center;
+    font-family: 'proxima-nova', sans-serif;
+    text-decoration: none;
+
+}
+
+.secondpar {
+    position: absolute;
+    font-size: 19px;
+    line-height: 25px;
+
+    left: 50px;
+    top: 60px;
+  
+}
+
+.noon {
+    position: absolute;
+    text-decoration: none;
+    right: 15px;
+    color: #75DFFC;
+    font-weight: bold;
+
+}
+
+
+.formsec{
+    top: 800px;
+    left: 170px;
+    width: 800px;
+    height: 720px;
+    /* border: 1px red solid; */
+    position: absolute;
+
+}
+.input_nanam  {
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    box-shadow: 7px 7px 3px #A2FDE9;
+    /* border: 1px black  solid; */
+    margin-left: 50px;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding-left: 30px;
+    float: left;
+    outline: none;
+}
+ textarea{
+    margin-top: 30px;
+    width: 680px;
+    
+    height: 200px;
+    box-shadow: 7px 7px 3px #A2FDE9;
+    /* border: 1px black  solid; */
+    margin-left: 50px;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 20px;
+    outline: none;
+    
+}
+
+.sec7len{
+    margin-top: 500px;
+    margin-left: -300px;
+    
+}
+
+.lastdivimg{
+    position: relative;
+   top:55px;
+    width: 210px;
+    height: 190px;
+    /* border: 1px red solid; */
+    left: 930px;
+
+}
+.footrbg{
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    top: -80px;
+}
+ .finalimg{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    width: 180px;
+     height: 140px; 
+}
+.lastfotersec{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    /* border: 1px green solid; */
+}
+.seal{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 150px;
+    left: 50px;
+}
+.fotrsunsec{
+    position: absolute;
+    width: 370px;
+    height: 300px;
+    /* border: 1px green solid; */
+    left: 470px;
+    top: 50px;
+
+}
+.logooo{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: -60px;
+left: 90px;
+}
+.fotrpara{
+    position: absolute;
+    font-size: 22px;
+    line-height: 35px;
+    top: 80px;
+    text-align: center;
+    left:20px;
+
+}
+.socialicon{
+
+
+    position: absolute;
+    width: 350px;
+    height: 80px;
+    /* border: 1px black solid; */
+left: 5px;
+    top: 200px;
+    float: left;
+}
+.icon1{
+    
+    margin-left: 25px;
+    float: left;
+    width: 55px;
+    height: 55px;
+    margin-top: 11px;
+    /* display: flex; */
+    /* text-align: c; */
+    /* border: 1px black solid; */
+    border-radius: 10px ;
+    box-shadow: 5px 5px 1px aqua;
+    background-color: white;
+}
+.icon1:hover{
+
+    background-color: black;
+
+}
+
+.fa-brands{
+    font-size: 20px;
+    margin-top: 17px;
+    margin-left: 22px;
+   
+}
+.information{
+    margin-top: 350px;
+    width: 1410px;
+    height: 350px;
+    margin-left: -540px;
+    /* border: 1px red solid; */
+    float: left;
+}
+.information1{
+    width: 140px;
+    height: 300px;
+    /* border: 1px red solid; */
+    float: left;
+    margin-left: 120px;
+    color: #6d6d6d;
+    font-size: 50px;
+}
+.verticleblock{ 
+    margin-left: -50px;
+    color: black;
+}
+.tite{
+    font-weight: bold;
+}
+.information2{
+    width: 200px;
+    height: 300px;
+    /* border: 1px red solid; */
+    float: left;
+    margin-left: 110px;
+}
+.copyright{
+    width: 100%;
+    height: 100px;
+    /* border: 1px green solid; */
+}
+.fa-copyright{
+    font-size: 50px;
+}
+.copyreite{
+    font-size: 18px;
+    color: #6d6d6d;
+    float: left;
+}
+
+.desi{
+    float: left;
+    margin-left: 900px;
+    margin-top: 0px;
+
+
+
+}
+.logoo48{
+    position: absolute;
+    position: fixed;
+    width: 90px;
+left: 20px;
+    height:90px;
+    border: none;
+    top: 520px;
+    left: 1260px;
+}
+.logg{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+}
+.aqva{
+    position: sticky;
+    position: absolute;
+    width: 40px;
+    top: 20px;
+    left: 20px;
+    height: 40px;
+    border:none;
+    border-radius: 100px;
+    background-color: turquoise;
+}
+.fa-solid{
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 100px;
+}
+
+.log48{
+    width: 70px;
+    height: 70px;
+}
+
+ 
